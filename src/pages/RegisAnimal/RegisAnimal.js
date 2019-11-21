@@ -210,9 +210,9 @@ class RegisAnimal extends React.Component {
                       placeholder="Selecione..."
                       style={{ width: '100%' }}
                     >
-                      <Option value="macho">Macho</Option>
-                      <Option value="femea">Femêa</Option>
-                      <Option value="indefinido">Indefinido</Option>
+                      <Option value="Macho">Macho</Option>
+                      <Option value="Femêa">Femêa</Option>
+                      <Option value="Indefinido">Indefinido</Option>
                     </Select>
                   )}
                 </Form.Item>
@@ -229,9 +229,9 @@ class RegisAnimal extends React.Component {
                       placeholder="Selecione..."
                       style={{ width: '100%' }}
                     >
-                      <Option value="pequeno">Pequeno</Option>
-                      <Option value="medio">Médio</Option>
-                      <Option value="grande">Grande</Option>
+                      <Option value="Pequeno">Pequeno</Option>
+                      <Option value="Médio">Médio</Option>
+                      <Option value="Grande">Grande</Option>
                     </Select>
                   )}
                 </Form.Item>

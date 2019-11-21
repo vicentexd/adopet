@@ -281,9 +281,9 @@ class Registro extends React.Component {
                       placeholder="Selecione..."
                       style={{ width: '100%' }}
                     >
-                      <Option value="masculino">Masculino</Option>
-                      <Option value="feminino">Feminino</Option>
-                      <Option value="outro">Outro</Option>
+                      <Option value="Masculino">Masculino</Option>
+                      <Option value="Feminino">Feminino</Option>
+                      <Option value="Outro">Outro</Option>
                     </Select>
                   )}
                 </Form.Item>
