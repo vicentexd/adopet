@@ -1,0 +1,101 @@
+.conteudo-home{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/fundoLogin.png);
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+}
+
+.titulo-home{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-home{
+  background: #ffff;
+  width: 1200px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px 10px 50px 10px;
+  -webkit-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  -moz-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+}
+
+.cards-home{
+  text-align: center;
+  height: 300px;
+}
+
+.cards-home:hover{
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
+
+.cards-home h2{
+  font-size: 30px;
+}
+
+.cards-home p{
+  font-size: 20px;
+}
+
+.opcao-home{
+  background: #ffff;
+  margin-top: 30px;
+  padding: 20px 20px 20px 20px;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  -moz-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+}
+
+.til-op-home{
+  font-size: 25px;
+}
+
+.btn-op-home{
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  height: 46px;
+  font-size: 16px;
+  background: #B34441 !important;
+  font-weight: bold;
+  color: #FFF  !important;
+  cursor: pointer;
+}
+
+.btn-op-home:hover{
+  transition: all 0.2s;
+  opacity: 0.9;
+}
+
+.btn-voltar-home{
+  position:absolute;
+  top: 95%;
+  right: 85%;
+  transform: translate(-50%, -50%);
+  color: #FFF  !important;
+  background: #B34441 !important;
+}

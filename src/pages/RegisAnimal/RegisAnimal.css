@@ -1,0 +1,68 @@
+.pag{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/fundoLogin.png);
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: cover;
+}
+
+.box-regisanimal{
+  background: #ffff;
+  padding-top: 3em;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  -moz-box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+  box-shadow: 6px 7px 20px -8px rgba(138,136,138,1);
+}
+
+.form-regisAnimal{
+  margin: 20px 20px 20px 20px;
+  width: 100%;
+  height: 700px;
+}
+
+.form-regisAnimal h2{
+  font-size: 30px;
+}
+
+.btn-regisAnimal{
+  margin-top: 10px;
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
+  height: 46px;
+  font-size: 16px;
+  background: #B34441 !important;
+  font-weight: bold;
+  color: #FFF  !important;
+  cursor: pointer;
+}
+
+.btn-regisAnimal:hover{
+  transition: all 0.2s;
+  opacity: 0.9;
+}
+
+.btn-voltar-regisAnimal{
+  position:absolute;
+  top:5%;
+  right: 85%;
+  transform: translate(-50%, -50%);
+  color: #FFF  !important;
+  background: #B34441 !important;
+}
+
+

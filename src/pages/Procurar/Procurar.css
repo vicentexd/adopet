@@ -1,0 +1,89 @@
+.container-procurar{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+ .logo-procurar{
+  width: 150px;
+}
+
+.procurar-lar{
+  font-size: 30px;
+}
+
+.container-procurar ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.container-procurar ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-procurar ul li img{
+  max-width: 100%;
+  border-radius: 5px 5px  0 0;
+}
+
+.container-procurar ul li footer{
+  flex: 1;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  text-align: left;
+  border-radius: 0 0 5px 5px;
+}
+
+.container-procurar ul li footer strong{
+  font-size: 18px;
+  color: #333;
+}
+
+.container-procurar ul li footer p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.container-procurar ul li .btns-procurar{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.container-procurar ul li .btns-procurar button{
+  height: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.container-procurar ul li .btns-procurar button:hover img{
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
+
+.container-procurar .empty{
+font-size: 32px;
+color: #999;
+font-weight: bold;
+margin-top: 300px;
+}
+
+.btn-voltar-procurar{
+  position:absolute;
+  top:5%;
+  right: 85%;
+  transform: translate(-50%, -50%);
+  color: #FFF  !important;
+  background: #B34441 !important;
+}
