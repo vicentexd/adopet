@@ -389,7 +389,7 @@ class Registro extends React.Component {
           <div className="esquerda-registro">
             <h2 className="titulo-registro">Seja Bem vindo!</h2>
             <h3>
-              O Adopets tem o objetivo trazer uma nova maneria de dar uma
+              O Adopets tem o objetivo trazer uma nova maneira de dar uma
               oportunidade tanto para pessoas quanto para animais de terem uma
               nova companhia! Cadastre-se e procure um novo companheiro.
             </h3>
