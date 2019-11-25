@@ -120,11 +120,14 @@ class Registro extends React.Component {
 
   handleDeleta = async id => {
     try{
+
+      this.setState({
+        uploadedFiles: [],
+      })
+
       await api.delete(`posts/${id}`)
       
-    this.setState({
-      uploadedFiles: this.state.uploadedFiles.filter(file => file.id !== id),
-    })
+    
     }catch{
       console.log("cathei vc");
       this.setState({
