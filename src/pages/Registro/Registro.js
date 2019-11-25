@@ -126,8 +126,9 @@ class Registro extends React.Component {
       uploadedFiles: this.state.uploadedFiles.filter(file => file.id !== id),
     })
     }catch{
+      console.log("cathei vc");
       this.setState({
-        uploadedFiles: this.state.uploadedFiles.filter(file => file.id !== id),
+        uploadedFiles: [],
       })
     }
     
