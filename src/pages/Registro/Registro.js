@@ -12,6 +12,7 @@ import {
   InputNumber,
   message,
   Icon,
+  Modal
 } from 'antd'
 import locale from 'antd/es/date-picker/locale/pt_BR'
 import moment from 'moment'
@@ -61,6 +62,17 @@ class Registro extends React.Component {
     })
 
     uploadedFiles.forEach(this.processUpload)
+  }
+
+  showModal = () => {
+    const { history, match } = this.props
+    Modal.success({
+      title: 'Cadastro Realizado',
+      content: <h2>Cadastro feito com sucesso!</h2>,
+      onOk() {
+        history.push(`/`)
+      },
+    })
   }
 
   updateFile = (id, data) => {
