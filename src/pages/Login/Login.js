@@ -8,8 +8,18 @@ import api from '../../services/Api'
 import logo from '../../assets/logocomp.png'
 
 class Login extends React.Component {
+  constructor(){
+    super();
+    this.state ={
+      loading: false,
+    }
+  }
+
   handleSubmit = async e => {
     const { history } = this.props
+    this.setState({
+      loading: true,
+    });
     e.preventDefault()
     this.props.form.validateFieldsAndScroll(async (err, values) => {
       if (!err) {
@@ -29,7 +39,11 @@ class Login extends React.Component {
           message.error('Usuario não existe')
         }
 
-        this.props.form.resetFields()
+        this.props.form.resetFields();
+
+        this.setState({
+          loading: false,
+        })
       }
     })
   }
@@ -83,7 +97,7 @@ class Login extends React.Component {
               )}
             </Form.Item>
             <Form.Item>
-              <Button type="" htmlType="submit" className="btn-login">
+              <Button type="" htmlType="submit" className="btn-login" loading={this.state.loading}>
                 Entrar
               </Button>
             </Form.Item>
