@@ -162,7 +162,7 @@ class Registro extends React.Component {
           message.error('E-mail já cadastrado ')
         }
         if (resposta == 'cadastrado') {
-          history.push('/')
+          this.showModal()
         }
       }
     })
