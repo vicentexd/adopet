@@ -64,7 +64,7 @@ class RegisAnimal extends React.Component {
       responsavel: this.state.user.nome,
       id_responsavel: this.state.user._id,
       imagem: this.state.url_imagem,
-      telefone: this.state.user.telefone,
+      telefone: this.state.user.user.telefone,
     })
 
     this.props.form.validateFieldsAndScroll(async (err, values) => {
