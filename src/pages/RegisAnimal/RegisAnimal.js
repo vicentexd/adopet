@@ -64,6 +64,7 @@ class RegisAnimal extends React.Component {
       responsavel: this.state.user.nome,
       id_responsavel: this.state.user._id,
       imagem: this.state.url_imagem,
+      telefone: this.state.user.telefone,
     })
 
     this.props.form.validateFieldsAndScroll(async (err, values) => {
@@ -321,6 +322,9 @@ class RegisAnimal extends React.Component {
             </Form.Item>
             <Form.Item>
               {getFieldDecorator('responsavel')(<Input type="hidden" />)}
+            </Form.Item>
+            <Form.Item>
+              {getFieldDecorator('telefone')(<Input type="hidden" />)}
             </Form.Item>
             <Form.Item>
               <Button htmlType="submit" className="btn-regisAnimal">

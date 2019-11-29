@@ -52,7 +52,7 @@ export default class Match extends React.Component {
                 <p>Sexo: {animal.sexo}</p>
                 <p>Idade: {animal.idade}</p>
                 <p>Porte: {animal.porte}</p>
-          <p>Responsável:{animal.responsavel}</p>
+                <p>Responsável:{animal.responsavel}</p>
                 <p>{animal.descricao}</p>
               </footer>
               <div className="telefone-match">
@@ -63,7 +63,7 @@ export default class Match extends React.Component {
                     color: 'rgba(24, 182, 10, 0.836)',
                   }}
                 />
-                <h3> {user.telefone}</h3>
+                <h3> {animal.telefone}</h3>
               </div>
             </li>
           ))}
